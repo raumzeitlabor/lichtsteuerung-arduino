@@ -7,7 +7,7 @@ lichtsteuerung.name=RaumZeitLabor Lichtsteuerung Atmega64
 
 lichtsteuerung.upload.protocol=usbasp
 lichtsteuerung.upload.maximum_size=57344
-lichtsteuerung.upload.speed=115200
+lichtsteuerung.upload.speed=56000
 lichtsteuerung.upload.tool=arduino:avrdude
 
 lichtsteuerung.bootloader.low_fuses=0xFF
