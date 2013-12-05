@@ -1,0 +1,6 @@
+usbasp.name=USBasp w/ Erase
+usbasp.communication=usb
+usbasp.protocol=usbasp
+usbasp.program.protocol=usbasp
+usbasp.program.tool=lichtsteuerung-arduino:avr:avrdude
+usbasp.program.extra_params=-Pusb -e
