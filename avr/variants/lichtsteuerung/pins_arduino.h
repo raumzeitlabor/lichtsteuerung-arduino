@@ -28,6 +28,9 @@ static const uint8_t A5 = 45;
 static const uint8_t A6 = 46;
 static const uint8_t A7 = 47;
 
+static const uint8_t SDA = 26;
+static const uint8_t SCL = 25;
+
 #ifdef ARDUINO_MAIN
 
 const uint16_t PROGMEM port_to_mode_PGM[] =

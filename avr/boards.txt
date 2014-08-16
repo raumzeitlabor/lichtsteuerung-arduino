@@ -1,12 +1,12 @@
 #lichtsteuerung.name=RaumZeitLabor==============================
 
 ##############################################################
-#	Added for atmega64 (RaumZeitLabor Lichtsteuerung)
-lichtsteuerung.name=RaumZeitLabor Lichtsteuerung Atmega64
+#	Added for atmega2561 (RaumZeitLabor Lichtsteuerung)
+lichtsteuerung.name=RaumZeitLabor Lichtsteuerung Atmega2561
 
 lichtsteuerung.upload.protocol=usbasp
-lichtsteuerung.upload.maximum_size=57344
-lichtsteuerung.upload.speed=56000
+lichtsteuerung.upload.maximum_size=256000
+lichtsteuerung.upload.speed=115200
 lichtsteuerung.upload.tool=avrdude2
 
 lichtsteuerung.bootloader.low_fuses=0xFF
@@ -15,7 +15,7 @@ lichtsteuerung.bootloader.extended_fuses=0xFF
 lichtsteuerung.bootloader.unlock_bits=0x3F
 lichtsteuerung.bootloader.lock_bits=0x0F
 
-lichtsteuerung.build.mcu=atmega64
+lichtsteuerung.build.mcu=atmega2561
 lichtsteuerung.build.f_cpu=16000000L
 lichtsteuerung.build.core=arduino
 lichtsteuerung.build.variant=lichtsteuerung
